@@ -2,6 +2,8 @@ FROM alpine:3.8
 MAINTAINER insertEFFECT <philip.graf@insfx.com>
 
 ENV AWS_CLI_VERSION 1.16.16
+ENV AWS_DEFAULT_REGION eu-central-1
+ENV AWS_DEFAULT_OUTPUT json
 
 RUN apk --no-cache update \
     && apk --no-cache add \
