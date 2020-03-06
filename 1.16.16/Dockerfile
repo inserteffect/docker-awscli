@@ -13,6 +13,7 @@ RUN apk --no-cache update \
         ca-certificates \
         groff \
         less \
+        zip \
     && pip install --upgrade pip \
     && pip --no-cache-dir install awscli==${AWS_CLI_VERSION}
 
