@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:3.12
 MAINTAINER insertEFFECT <philip.graf@insfx.com>
 
 ENV AWS_CLI_VERSION 1.18.158
@@ -7,9 +7,9 @@ ENV AWS_DEFAULT_OUTPUT json
 
 RUN apk --no-cache update \
     && apk --no-cache add \
-        python \
-        py-pip \
-        py-setuptools \
+        python3 \
+        py3-pip \
+        py3-setuptools \
         ca-certificates \
         groff \
         less \
