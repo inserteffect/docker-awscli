@@ -14,6 +14,7 @@ RUN apk --no-cache update \
         groff \
         less \
         zip \
+        docker-cli \
     && pip install --upgrade pip \
     && pip --no-cache-dir install awscli==${AWS_CLI_VERSION}
 
