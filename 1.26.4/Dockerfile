@@ -28,5 +28,5 @@ LABEL org.label-schema.build-date=$BUILD_DATE
 LABEL org.label-schema.vcs-ref=$VCS_REF
 LABEL org.label-schema.vcs-url="https://github.com/inserteffect/docker-awscli.git"
 LABEL org.label-schema.name="AWS cli"
-LABEL org.label-schema.vendor="InsertEFFECT"
+LABEL org.label-schema.vendor="insertEFFECT"
 LABEL org.label-schema.schema-version="1.0"
